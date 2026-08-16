@@ -1,0 +1,17 @@
+# credentials — this repo is public, never commit secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+secrets.*
+**/service-account*.json
+application_default_credentials.json
+.gcloud/
+
+# local
+.DS_Store
+__pycache__/
+node_modules/
+.venv/
